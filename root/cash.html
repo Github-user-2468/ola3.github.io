@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+   	 <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="cash.css" type="text/css" rel="stylesheet">
+   		 <title>Karigan Cash Register</title>
+	</head>
+		<body>
+		<center>
+
+			<h1 id="titleHeader"><b>Welcome to Cash Register </b></h1>
+			<div id="register">
+                
+				<label for="itemCount"><b>Enter number of items:</b></label>
+				<br><br><br>
+       		    <input type="number" id="itemCount" min="1">
+
+       		    <br><br><br>
+
+       		    <button id="ScanButton"><b>Scan Items</b>
+       		    <button id="PrintButton"><b>Print Total</b>
+       		    <button id="ResetButton"><b>Reset</b></button>
+       		    <br>
+
+
+       		    <p>Total.... &ensp;</p> <p id="totalPrice"></p>
+       		    
+       		    <p>Scanned items.... &emsp; </p> 
+       		   
+
+       		   
+       		<center>
+       		    <ul  style="list-style: none; color: darkslategray;">
+       		    	<div id="scannedItems"> </div>
+       			</ul>
+       		
+       		
+       		</center>
+       		</center>
+       		</div>
+       	
+
+				
+				<script type="text/javascript" src="cash.js"></script>
+			</body>
+			</html>
